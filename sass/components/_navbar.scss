@@ -1,0 +1,33 @@
+.navbar{
+
+    & h3{
+        margin-left:2rem;
+        margin-top:2rem;
+        font-size:3rem;
+        color:$primary-color;
+        
+        & a{
+            text-decoration:none;
+            color:$primary-color;
+        }
+    }
+
+    & .links ul{
+        list-style:none;
+        font-size:$font-size;
+        display:flex;
+        margin-top:3rem;
+
+        & li a{
+            text-decoration:none;
+            color:$primary-color;
+            margin-right:5rem;
+            padding-bottom:8px;
+        }
+
+        & li a:hover{
+            border-bottom: 2px $primary-color solid;
+        }
+    }
+}
+

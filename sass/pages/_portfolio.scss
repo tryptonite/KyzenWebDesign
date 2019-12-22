@@ -1,0 +1,49 @@
+.port-description{
+    text-align:center;
+    padding:12rem;
+
+    & h2{
+        font-size:3rem;
+    }
+
+    & p{
+        font-size:$font-size;
+    }
+}
+
+.portfolio{
+
+
+    & .container-port{
+        padding:8rem;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    & .port-one{
+        background-color: rgb(183, 196, 110);
+    }
+}
+
+.port-imgone{
+    border-radius:5px;
+    margin:0 auto;
+    text-align: center;
+
+    & img{
+        width:65%;
+        border-radius: 5px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    & .port-text{
+        margin-top:3rem;
+        font-size:$font-size;
+        // width:50%;
+        
+        & h2 {
+            font-size: 3rem;
+        }
+    }
+}
