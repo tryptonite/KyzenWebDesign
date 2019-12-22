@@ -95,7 +95,6 @@ h3 {
   .cbtn-three:hover {
     background-color: rgba(129, 129, 129, 0.801); }
 
-<<<<<<< HEAD
 .port-btn {
   font-size: 2rem;
   padding: 8px 14px;
@@ -110,8 +109,6 @@ h3 {
   .port-btn:hover {
     background-color: rgba(247, 69, 34, 0.801); }
 
-=======
->>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e
 .navbar h3 {
   margin-left: 2rem;
   margin-top: 2rem;
@@ -139,17 +136,10 @@ h3 {
   height: 800px; }
 
 .home-header {
-<<<<<<< HEAD
   background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(41, 34, 34, 0.801)), url(../images/home-office.jpg) no-repeat center center; }
 
 .port-header {
   background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(44, 44, 12, 0.801)), url(../images/lightpaint.jpg) no-repeat center center; }
-=======
-  background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(41, 34, 34, 0.801)), url(/images/home-office-336373_1920.jpg) no-repeat center center; }
-
-.port-header {
-  background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(44, 44, 12, 0.801)), url(/images/lightpaint.jpg) no-repeat center center; }
->>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e
 
 .container-head {
   display: flex;
@@ -200,7 +190,6 @@ h3 {
   background-color: #000;
   height: 150px;
   text-align: center;
-<<<<<<< HEAD
   overflow-y: hidden;
   justify-content: center;
   align-items: center; }
@@ -221,13 +210,6 @@ h3 {
   background: -webkit-linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
-=======
-  overflow-y: hidden; }
-  .footer p {
-    color: #dfdfdf;
-    font-size: 1.25rem;
-    line-height: 150px; }
->>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e
 
 .about {
   background-color: #000;
@@ -310,21 +292,13 @@ h3 {
     margin-bottom: 3.5rem;
     font-weight: 400; }
   .convert .top-link {
-<<<<<<< HEAD
     margin-top: 12rem; }
-=======
-    margin-top: 8rem; }
->>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e
     .convert .top-link a {
       text-decoration: none;
       font-size: 1.8rem;
       color: #000; }
       .convert .top-link a:hover {
-<<<<<<< HEAD
         border-bottom: 1px black solid; }
-=======
-        font-weight: bold; }
->>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e
 
 .port-description {
   text-align: center;
@@ -343,7 +317,6 @@ h3 {
 .portfolio .port-one {
   background-color: #b7c46e; }
 
-<<<<<<< HEAD
 .portfolio .port-two {
   background-color: #19647E; }
 
@@ -381,18 +354,3 @@ h3 {
   .portfolio .port-imgtwo p {
     color: #fff;
     margin: 3rem 0; }
-=======
-.port-imgone {
-  border-radius: 5px;
-  margin: 0 auto;
-  text-align: center; }
-  .port-imgone img {
-    width: 65%;
-    border-radius: 5px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5); }
-  .port-imgone .port-text {
-    margin-top: 3rem;
-    font-size: 1.8rem; }
-    .port-imgone .port-text h2 {
-      font-size: 3rem; }
->>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e
