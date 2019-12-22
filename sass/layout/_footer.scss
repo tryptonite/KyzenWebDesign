@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer{
     background-color: $color-black;
     height:150px;
@@ -33,4 +34,17 @@
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
 
+=======
+.footer{
+    background-color: $color-black;
+    height:150px;
+    text-align:center;
+    overflow-y:hidden;
+
+    & p{
+        color:rgb(223, 223, 223);
+        font-size: 1.25rem;
+        line-height:150px;
+    }
+>>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e
 }
