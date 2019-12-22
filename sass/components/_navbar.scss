@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .navbar{
 
     & h3{
@@ -32,38 +31,3 @@
     }
 }
 
-=======
-.navbar{
-
-    & h3{
-        margin-left:2rem;
-        margin-top:2rem;
-        font-size:3rem;
-        color:$primary-color;
-        
-        & a{
-            text-decoration:none;
-            color:$primary-color;
-        }
-    }
-
-    & .links ul{
-        list-style:none;
-        font-size:$font-size;
-        display:flex;
-        margin-top:3rem;
-
-        & li a{
-            text-decoration:none;
-            color:$primary-color;
-            margin-right:5rem;
-            padding-bottom:8px;
-        }
-
-        & li a:hover{
-            border-bottom: 2px $primary-color solid;
-        }
-    }
-}
-
->>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e

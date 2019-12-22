@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 @mixin clearfix {
     &::after {
         content: "";
         display:table;
         clear:both;
     }  
-=======
-@mixin clearfix {
-    &::after {
-        content: "";
-        display:table;
-        clear:both;
-    }  
->>>>>>> 3c4b07a0fd70053d5b0c6814a77accafd7bda67e
 }
