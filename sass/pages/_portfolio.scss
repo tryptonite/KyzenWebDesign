@@ -4,11 +4,35 @@
 
     & h2{
         font-size:3rem;
+        margin-bottom: 2rem;
+        color: $h2-color;
     }
 
     & p{
         font-size:$font-size;
     }
+}
+
+.port{
+        border-radius: 5px;
+        margin:0 auto;
+        text-align: center;
+}
+
+.port-text{
+    margin-top:4rem;
+    font-size:$font-size;
+}
+
+img{
+    width:65%;
+    border-radius: 5px;
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    transition: all .5s ease;
+}
+
+img:hover{
+    transform:translateY(-3px) scale(1.03);
 }
 
 .portfolio{
@@ -20,66 +44,27 @@
         justify-content: center;
     }
 
-    & .port-one{
-        background-color: rgb(183, 196, 110);
-    }
-
-    & .port-two{
-        background-color: #19647E;
-    }
-
-    & .port-imgone{
-    border-radius:5px;
-    margin:0 auto;
-    text-align: center;
-
-    & .port-text{
-        margin-top:3rem;
-        font-size:$font-size;
-    }
-
-    & img{
-        width:65%;
-        border-radius: 5px;
-        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
-    }
-        
     & h2 {
         font-size: 3rem;
-        margin-top: 5rem;
     }
 
     & p {
         margin: 3rem 0;
     }
 
-
+    & .port-one{
+        background-color: rgb(183, 196, 110);
     }
 
-    & .port-imgtwo{
-    border-radius: 5px;
-    margin:0 auto;
-    text-align: center;
-
-    & .port-text{
-        margin-top:3rem;
-        font-size:$font-size;
-    }
-
-    & img{
-        width:70%;
-        border-radius: 5px;
-        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
-    }
+    & .port-two{
+        background-color: #19647E;
 
     & h2{
-        font-size:3rem;
         color:$color-white;
     }
 
     & p{
         color:$color-white;
-        margin:3rem 0;
     }
-}
-}
+}}
+

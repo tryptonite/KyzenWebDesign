@@ -1,0 +1,34 @@
+.services{
+    margin-top:7rem;
+    font-size:$font-size;
+    width:100%;
+    
+    & .svc-box{
+        border:1px black solid;
+        text-align: center;
+
+        & h2{
+            font-weight:600;
+            background-color: rgb(104, 231, 121);
+            padding:1rem;
+        }
+
+        & .price{
+            font-family:$font-ms;
+            font-size:3rem;
+        }
+    }
+
+    & ul{
+        padding: 2rem 3rem;
+        list-style-type:none;
+        text-align: initial;
+
+
+        & li::before{
+            color:rgb(0, 78, 0);
+            content:'✔';
+            margin: 5px 7px;
+        }
+    }
+}
