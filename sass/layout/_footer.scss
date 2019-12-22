@@ -26,11 +26,12 @@
 
 .fa-facebook-square:hover{
     color:rgb(59,89,152);
+    cursor: pointer;
 }
 
 .fa-instagram:hover{
     background:-webkit-linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
-
+    cursor: pointer;
 }

@@ -1,22 +1,109 @@
+.section-services{
+    margin: 10rem auto;
+}
+
+.project{
+    margin:0 auto;
+    font-size:$font-size;
+    display:block;
+    width:650px;
+    // border:1px black solid;
+
+
+    &__header{
+        justify-content: center;
+        font-size:3.5rem;
+        font-weight: 600;
+        text-align: center;
+        background-color: rgb(110, 224, 100);
+    }
+
+    &__serv-list{
+        margin-top: 4rem;
+        margin-left: 12rem;
+
+        & p{
+            font-weight: 600;
+        }
+    }
+}
+
+.serv-convert{
+    width:70%;
+    margin:5rem auto;
+    display:flex;
+    justify-content: space-between;
+    padding:2.5rem;
+
+    & h5{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    & a{
+        text-decoration: none;
+        color:$color-white;
+    }
+}
+
+.serv-cv-1{
+    background-color:rgba(14, 68, 218, 0.774);
+}
+
+.serv-cv-2{
+    background-color: rgb(85, 85, 85);
+
+    & h5{
+        color:rgb(238, 238, 238);
+    }
+}
+
+.serv-options{
+    text-align: center;
+    margin-top:15rem;
+
+    & h2{
+        font-size:4rem;
+        font-weight: 600;
+    }
+
+    & h3{
+        margin-top:1.5rem;
+        color:rgb(97, 97, 97);
+        font-weight: 600;
+    }
+}
+
 .services{
     margin-top:7rem;
+    padding-bottom:5rem;
     font-size:$font-size;
     width:100%;
-    
+
     & .svc-box{
         border:1px black solid;
         text-align: center;
 
         & h2{
             font-weight:600;
-            background-color: rgb(104, 231, 121);
+            background-color: rgb(78, 78, 78);
+            color:$color-white;
             padding:1rem;
+        }
+
+        & .p-month{
+            margin: 3rem 0;
         }
 
         & .price{
             font-family:$font-ms;
             font-size:3rem;
+            font-weight: 600;
         }
+    }
+
+    & .svc-mid h2{
+        background-color: rgb(14, 68, 218);
     }
 
     & ul{
@@ -24,11 +111,15 @@
         list-style-type:none;
         text-align: initial;
 
+    & li{
+        margin:1.5rem 0;
+    }
+
 
         & li::before{
-            color:rgb(0, 78, 0);
+            color:rgb(7, 129, 7);
             content:'✔';
-            margin: 5px 7px;
+            margin: 0 7px;
         }
     }
 }

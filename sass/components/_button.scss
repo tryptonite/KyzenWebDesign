@@ -82,3 +82,13 @@
         transform: translateY(-2px);
     }
 }
+
+.serv-btn{
+    background-color: rgb(241, 144, 53);
+    font-weight:600;
+    align-self:center;
+
+    &:hover{
+        background-color: rgba(241, 144, 53, 0.801);
+    }
+}

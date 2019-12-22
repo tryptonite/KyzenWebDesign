@@ -24,16 +24,18 @@
     font-size:$font-size;
 }
 
-img{
+.port img{
     width:65%;
     border-radius: 5px;
     box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
     transition: all .5s ease;
+
+    &:hover{
+            transform:translateY(-3px) scale(1.03);
+    }
 }
 
-img:hover{
-    transform:translateY(-3px) scale(1.03);
-}
+
 
 .portfolio{
 
