@@ -1,0 +1,36 @@
+.footer{
+    background-color: $color-black;
+    height:150px;
+    text-align:center;
+    overflow-y:hidden;
+    // display:flex;
+    // flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    & p{
+        color:grey;
+        font-size: 1.25rem;
+        // line-height:150px;
+    }
+
+    & .sm-icon{
+        margin:3rem 1.5rem 3rem;
+        color:grey;
+    }
+}
+
+.fa-envelope:hover{
+    color:red;
+}
+
+.fa-facebook-square:hover{
+    color:rgb(59,89,152);
+}
+
+.fa-instagram:hover{
+    background:-webkit-linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+
+}

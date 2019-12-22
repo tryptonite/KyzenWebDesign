@@ -1,0 +1,137 @@
+.about{
+    background-color: $color-black;
+    height:600px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.about-us{
+    text-align:center;
+    margin:0 3rem;
+
+    & h2{
+        color:rgb(65, 133, 236);
+        font-size:4rem;
+        padding-bottom: 3rem;
+    }
+
+    & p{
+        font-size:2rem;
+        color:rgb(161, 161, 161);
+        font-weight: 600;
+        max-width:600px;
+    }
+}
+
+.features{
+    // background:linear-gradient(to left bottom, #EA5864, #B5FED9);
+    background:linear-gradient(to left bottom, #F08A92, #FFFDAF);
+    // background-color: $primary-color;
+    padding:5rem 0;
+}
+
+.container-feat{
+    padding:5rem;
+    font-weight:600;
+
+    & h2 {
+        font-size:3rem;
+        font-weight:600;
+        // color:rgb(95, 95, 94);
+        color:#0B5563;
+        margin-bottom: 24px;
+    }
+
+    & .feat-text{
+        max-width:500px;
+        font-size:$font-size;
+        color:#252422;
+    }
+
+    & .feat-icon{
+        align-self:center;
+        text-align:center;
+        // padding:2rem;
+        margin:auto;
+        position: relative;
+        height:100px;
+        }
+
+        & .inner-icon{
+            margin:auto;
+            background-color: grey;
+            width:90px;
+            height:90px;
+            align-self:center;
+            border-radius: 50%;
+            position: relative;
+            box-shadow:0 3rem 3rem rgba(0, 0, 0, 0.5);
+            transition: all .4s ease;
+
+            &:hover {
+                transform:scale(1.08);
+            }
+
+        }
+
+        & .i-left{
+            top:40%;
+            left:-25%;
+            
+        }
+
+        & .i-right{
+            top:-15%;
+            right:-30%;
+
+        }
+
+        & .fas{
+            position: absolute;
+            width:200px;
+        }
+    }
+
+.convert{
+    height:650px;
+    text-align:center;
+    margin: 0 auto;
+    font-family: $font-ms;
+    background-color: rgba(206, 209, 180, 0.719);
+
+    & h2{
+        font-size:3.5rem;
+        text-align:center;
+        padding-top:6rem;
+    }
+
+    & .con-row{
+        padding:3rem;
+    }
+
+    & .conv-header{
+
+        & h4{
+            font-size:2.5rem;
+            margin-bottom:3.5rem;
+            font-weight:400;
+        }
+    }
+
+    & .top-link {
+        margin-top:12rem;
+
+        & a {
+            text-decoration: none;
+            font-size:$font-size;
+            color:$color-black;
+    
+            &:hover{
+                border-bottom:1px black solid;
+            }
+    }
+
+
+    }
+}

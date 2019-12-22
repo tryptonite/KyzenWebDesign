@@ -1,0 +1,85 @@
+.port-description{
+    text-align:center;
+    padding:12rem;
+
+    & h2{
+        font-size:3rem;
+    }
+
+    & p{
+        font-size:$font-size;
+    }
+}
+
+.portfolio{
+
+    & .container-port{
+        padding:8rem;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    & .port-one{
+        background-color: rgb(183, 196, 110);
+    }
+
+    & .port-two{
+        background-color: #19647E;
+    }
+
+    & .port-imgone{
+    border-radius:5px;
+    margin:0 auto;
+    text-align: center;
+
+    & .port-text{
+        margin-top:3rem;
+        font-size:$font-size;
+    }
+
+    & img{
+        width:65%;
+        border-radius: 5px;
+        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    }
+        
+    & h2 {
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+
+    & p {
+        margin: 3rem 0;
+    }
+
+
+    }
+
+    & .port-imgtwo{
+    border-radius: 5px;
+    margin:0 auto;
+    text-align: center;
+
+    & .port-text{
+        margin-top:3rem;
+        font-size:$font-size;
+    }
+
+    & img{
+        width:70%;
+        border-radius: 5px;
+        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    }
+
+    & h2{
+        font-size:3rem;
+        color:$color-white;
+    }
+
+    & p{
+        color:$color-white;
+        margin:3rem 0;
+    }
+}
+}

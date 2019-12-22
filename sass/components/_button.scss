@@ -1,0 +1,82 @@
+.head-btn{
+    background-color: $hd-btn-color;
+    border:none;
+    padding:8px 14px;
+    font-size:2.5rem;
+    border-radius:5px;
+    box-shadow:0 1rem 1rem rgba(0, 0, 0, 0.55);
+    transition:all .4s ease;
+    animation: moveInBottom 1.5s ease-out;
+
+    & a{
+        color:$color-white;
+        text-decoration: none;
+    }
+
+    &:hover{
+        background-color: #32aee7d7;
+        transform:translateY(-2px);
+    }
+
+    &:active{
+        transform:translate(0);
+    }
+}
+
+.convert-btn{
+    font-size:2rem;
+    padding:8px 14px;
+    border:none;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.55);
+    border-radius: 5px;
+    font-weight: 400;
+
+    & a{
+        text-decoration: none;
+        color:$color-white;
+    }
+
+}
+
+.cbtn-one{
+    background-color: #F95738;
+
+    &:hover{
+        background-color: rgba(247, 69, 34, 0.801);
+    }
+}
+
+.cbtn-two{
+    background-color: rgb(78, 120, 235);
+
+    &:hover{
+        background-color: rgba(62, 108, 233, 0.801);
+    }
+}
+
+.cbtn-three{
+    background-color: rgb(122, 122, 122);
+
+    &:hover{
+        background-color: rgba(129, 129, 129, 0.801);
+    }
+}
+
+.port-btn{
+    font-size:2rem;
+    padding:8px 14px;
+    border:none;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.55);
+    border-radius: 5px;
+    font-weight: 400;
+    background-color: #F95738;
+
+    & a{
+        text-decoration: none;
+        color:$color-white;
+    }
+
+    &:hover{
+        background-color: rgba(247, 69, 34, 0.801);
+    }
+}
