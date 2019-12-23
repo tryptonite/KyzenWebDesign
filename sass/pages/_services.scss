@@ -1,5 +1,5 @@
 .section-services{
-    margin: 10rem auto;
+    margin: 7rem auto;
 }
 
 .project{
@@ -7,7 +7,9 @@
     font-size:$font-size;
     display:block;
     width:650px;
-    // border:1px black solid;
+    border:1px rgb(182, 182, 182) solid;
+    border-radius: 3px;
+    padding-bottom: 4rem;
 
 
     &__header{
@@ -15,6 +17,7 @@
         font-size:3.5rem;
         font-weight: 600;
         text-align: center;
+        border:none;
         background-color: rgb(110, 224, 100);
     }
 
@@ -32,6 +35,7 @@
     width:70%;
     margin:5rem auto;
     display:flex;
+    align-items: center;
     justify-content: space-between;
     padding:2.5rem;
 
@@ -48,6 +52,10 @@
 
 .serv-cv-1{
     background-color:rgba(14, 68, 218, 0.774);
+
+    & h5{
+        color:$color-black;
+    }
 }
 
 .serv-cv-2{
@@ -60,7 +68,7 @@
 
 .serv-options{
     text-align: center;
-    margin-top:15rem;
+    margin:8rem auto;
 
     & h2{
         font-size:4rem;
@@ -69,7 +77,7 @@
 
     & h3{
         margin-top:1.5rem;
-        color:rgb(97, 97, 97);
+        color:rgb(255, 255, 255);
         font-weight: 600;
     }
 }

@@ -1,6 +1,7 @@
 .port-description{
     text-align:center;
-    padding:12rem;
+    padding:15rem;
+    background-color: $color-black;
 
     & h2{
         font-size:3rem;
@@ -10,6 +11,8 @@
 
     & p{
         font-size:$font-size;
+        color:rgb(99, 99, 99);
+        letter-spacing:1px;
     }
 }
 
@@ -28,11 +31,11 @@
     width:65%;
     border-radius: 5px;
     box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
-    transition: all .5s ease;
+    // transition: all .5s ease;
 
-    &:hover{
-            transform:translateY(-3px) scale(1.03);
-    }
+    // &:hover{
+    //         transform:translateY(-3px) scale(1.03);
+    // }
 }
 
 

@@ -30,7 +30,7 @@
 
 <body>
     <!-- Header -->
-    <section class="header port-header">
+    <section class="header contact-header">
         <nav class="navbar">
             <h3><i class="fab fa-sketch"></i><a href="index.html"> Kyzen Web Design</a>
             </h3>
@@ -45,45 +45,46 @@
 
         <div class="container-head">
             <div class="header-div">
-                <h1 class='move-right'>Portfolio</h1>
+                <h1 class='move-right'>Contact Us</h1>
             </div>
         </div>
     </section>
-    <!-- Portfolio Description -->
-    <div class="port-description">
-        <h2>Some of my recent work.</h2>
-        <p><strong>A sample of my recent works,<br>Click view site to experience the full design.</strong></p>
-    </div>
-    <!-- Portfolio -->
-    <section class='portfolio'>
-        <div class="container-port port-one">
-            <div class="port port-imgone">
-                <img src="./images/HoneyPortfolioRS.png" width="800px">
-                <!-- <div class="hover">
-                    <a class='hover-text' href="https://viktarsbeefarm.com" target='_blank'>Viktar's Bee Farm</a>
-                </div> -->
-                <div class="port-text p-blk">
-                    <h2><strong>Bee Farm</strong></h2>
-                    <p><strong>I worked with local honey farmers to design a clean & enticing website
-                            for them to market themselves.</strong></p>
+
+    <!-- Contact Form -->
+    <section>
+        <div class="contact container-fluid">
+            <h2>Getting Started. Questions?</h2>
+            <h4>We have you covered.</h4>
+            <div class="form">
+                <form action="https://formspree.io/xvozaroj" method="POST">
+                <div class="row">
+                    <div class="col">
+                  <p>Name</p>
+                  <input type="text" name="name" id="name" placeholder="Name" required />
+                  <p>E-mail</p>
+                  <input type="email" name="email" id="email" placeholder="Email" required />
+                  <p>Phone Number</p>
+                  <input type="tel" name="number" id="pnumber" placeholder="Phone Number (optional)" required />
+                  <!-- <p>Subject</p>
+                  <select name="subject" id="subject">
+                    <option value="" disabled selected>Please select one</option>
+                    <option value="Purchase">Purchase</option>
+                    <option value="Returns">Returns</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Miscellaneous">Miscellaneous</option>
+                  </select> -->
+                    <p>Message</p>
+                    <textarea name="message" id="textarea" required></textarea>
+                  <div class="send-button">
+                  <button type="submit" class="contact-btn btn btn-dark">Send</button>
+                    </div>
+                  </div>
                 </div>
-                <button class='port-btn'><a href="https://viktarsbeefarm.com" target='_blank'>View Project</a></button>
-            </div>
+                </form>
+              </div>
         </div>
-        <div class="container-port port-two">
-            <div class="port port-imgtwo">
-                <img src="./images/KyzenPortfolioRS.png" width="800px">
-                <!-- <div class="hover-two">
-                    <p class=hovertwo-text>Finance Website</p>
-                </div> -->
-                <div class="port-text p-white">
-                    <h2><strong>Financial Site</strong></h2>
-                    <p>I designed this investment website to help market the business' investment courses</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Footer -->
+
+            <!-- Footer -->
     <footer>
         <div class="footer">
             <a href="https://www.gmail.com" target='_blank'><i class="fas sm-icon fa-envelope fa-2x"></i></a>
@@ -94,6 +95,6 @@
         </div>
     </footer>
     <script src=index.js></script>
+    </section>
 </body>
-
-</html>
+</html> 

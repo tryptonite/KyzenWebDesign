@@ -1,6 +1,6 @@
 .header{
     background-size: cover;
-    height:800px;
+    height:850px;
 }
 
 .home-header{
@@ -14,8 +14,14 @@
 }
 
 .serv-header{
-    background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(41, 34, 34, 0.801))
+    background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(19, 16, 16, 0.801))
     ,url(../images/services-landing.jpg) no-repeat center center;
+}
+
+.contact-header{
+    background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(41, 34, 34, 0.801))
+    ,url(../images/London-contact.jpg) no-repeat center center;
+    height:650px;
 }
 
 .container-head{
@@ -38,10 +44,10 @@
     }
 
     & .move-right{
-        animation: moveInRight 1.5s ease-out;
+        animation: moveInRight 1.2s ease-out;
     }
 
     & .move-left{
-        animation: moveInLeft 1.5s ease-out;
+        animation: moveInLeft 1.2s ease-out;
     }
 }
