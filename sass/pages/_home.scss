@@ -38,7 +38,6 @@
     & h2 {
         font-size:3rem;
         font-weight:600;
-        // color:rgb(95, 95, 94);
         color:$h2-color;
         margin-bottom: 24px;
     }
@@ -52,7 +51,6 @@
     & .feat-icon{
         align-self:center;
         text-align:center;
-        // padding:2rem;
         margin:auto;
         position: relative;
         height:100px;
@@ -68,8 +66,11 @@
             position: relative;
             box-shadow:0 3rem 3rem rgba(0, 0, 0, 0.5);
             transition: all .4s ease;
+            backface-visibility: hidden;
 
             &:hover {
+                -moz-transform:scale(1.08);
+                -webkit-transform: scale(1.08);
                 transform:scale(1.08);
             }
 

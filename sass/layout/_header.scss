@@ -36,6 +36,7 @@
     text-align: center;
     margin: 0 auto 5% auto;
     align-self:center;
+    backface-visibility: hidden;
 
     & h1{
         font-size:5.5rem;

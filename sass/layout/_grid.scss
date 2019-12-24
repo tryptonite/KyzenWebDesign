@@ -32,4 +32,14 @@
             margin-right: $gutter-horizontal;
         }
     }
+
+    & .col-1-of-3-svc {
+        margin: 0 auto;
+        float:left;
+        width:calc((100% - 2 * #{$gutter-horizontal-svc}) / 3);
+
+        &:not(:last-child){
+            margin-right: $gutter-horizontal-svc;
+        }
+    }   
 }

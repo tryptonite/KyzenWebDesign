@@ -71,7 +71,7 @@ h3 {
     text-decoration: none; }
   .head-btn:hover {
     background-color: #32aee7d7;
-    transform: translateY(-2px); }
+    transform: translateY(-3px); }
   .head-btn:active {
     transform: translate(0); }
 
@@ -178,7 +178,8 @@ h3 {
 .header-div {
   text-align: center;
   margin: 0 auto 5% auto;
-  align-self: center; }
+  align-self: center;
+  backface-visibility: hidden; }
   .header-div h1 {
     font-size: 5.5rem;
     align-self: center;
@@ -212,6 +213,12 @@ h3 {
     width: calc((100% - 2 * 5rem) / 3); }
     .row .col-1-of-3:not(:last-child) {
       margin-right: 5rem; }
+  .row .col-1-of-3-svc {
+    margin: 0 auto;
+    float: left;
+    width: calc((100% - 2 * 1rem) / 3); }
+    .row .col-1-of-3-svc:not(:last-child) {
+      margin-right: 1rem; }
 
 .footer {
   background-color: #000;
@@ -291,8 +298,11 @@ h3 {
     border-radius: 50%;
     position: relative;
     box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
-    transition: all .4s ease; }
+    transition: all .4s ease;
+    backface-visibility: hidden; }
     .container-feat .inner-icon:hover {
+      -moz-transform: scale(1.08);
+      -webkit-transform: scale(1.08);
       transform: scale(1.08); }
   .container-feat .i-left {
     top: 40%;
@@ -336,11 +346,11 @@ h3 {
   .port-description h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
-    color: #0B5563; }
+    color: #4185ec; }
   .port-description p {
     font-size: 1.8rem;
-    color: #636363;
-    letter-spacing: 1px; }
+    color: #aaaaaa;
+    letter-spacing: 2px; }
 
 .port {
   border-radius: 5px;
@@ -426,25 +436,28 @@ h3 {
   .serv-cv-2 h5 {
     color: #eeeeee; }
 
-.serv-options {
+.serv-plans {
   text-align: center;
   margin: 8rem auto; }
-  .serv-options h2 {
+  .serv-plans h2 {
     font-size: 4rem;
     font-weight: 600; }
-  .serv-options h3 {
+  .serv-plans h3 {
     margin-top: 1.5rem;
-    color: white;
+    color: #969696;
     font-weight: 600; }
 
 .services {
   margin-top: 7rem;
   padding-bottom: 5rem;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   width: 100%; }
   .services .svc-box {
-    border: 1px black solid;
-    text-align: center; }
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
+    text-align: center;
+    margin-top: 0;
+    height: 100%;
+    max-width: 325px; }
     .services .svc-box h2 {
       font-weight: 600;
       background-color: #4e4e4e;

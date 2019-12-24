@@ -6,13 +6,13 @@
     & h2{
         font-size:3rem;
         margin-bottom: 2rem;
-        color: $h2-color;
+        color: rgb(65, 133, 236);
     }
 
     & p{
         font-size:$font-size;
-        color:rgb(99, 99, 99);
-        letter-spacing:1px;
+        color:rgb(170, 170, 170);
+        letter-spacing:2px;
     }
 }
 
@@ -31,14 +31,7 @@
     width:65%;
     border-radius: 5px;
     box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
-    // transition: all .5s ease;
-
-    // &:hover{
-    //         transform:translateY(-3px) scale(1.03);
-    // }
 }
-
-
 
 .portfolio{
 
