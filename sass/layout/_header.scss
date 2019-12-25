@@ -26,6 +26,7 @@
     background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(41, 34, 34, 0.801))
     ,url(../images/London-contact.jpg) no-repeat center center;
     height:650px;
+    background-size:cover;
 }
 
 .container-head{
@@ -38,6 +39,11 @@
     transform: translate(-50%,-50%);
     height:100%;
     width:100%;
+}
+
+.container-contact-head{
+    transform:translate(-50%,-60%);
+
 }
 
 .header-div{
