@@ -48,9 +48,13 @@
 
 .header-div{
     text-align: center;
-    margin: 0 auto 5% auto;
+    margin:0 auto;
     align-self:center;
     backface-visibility: hidden;
+
+    &--mod{
+        margin: 0 auto 5% auto;
+    }
 
     & h1{
         font-size:5.5rem;
@@ -66,6 +70,8 @@
         animation: moveInLeft 1.2s ease-out;
     }
 }
+
+
 
 .arrow-dn{
     position:absolute;

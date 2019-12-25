@@ -47,7 +47,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden; }
 
 hr {
   width: 60%;
@@ -218,9 +219,11 @@ h3 {
 
 .header-div {
   text-align: center;
-  margin: 0 auto 5% auto;
+  margin: 0 auto;
   align-self: center;
   backface-visibility: hidden; }
+  .header-div--mod {
+    margin: 0 auto 5% auto; }
   .header-div h1 {
     font-size: 5.5rem;
     align-self: center;
