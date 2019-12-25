@@ -4,8 +4,12 @@
 }
 
 .home-header{
-    background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(41, 34, 34, 0.801))
-    ,url(../images/home-office.jpg) no-repeat center center;
+    // background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(41, 34, 34, 0.801))
+    // ,url(../images/home-office.jpg) no-repeat center center;
+    position:relative;
+    overflow:hidden;
+    height:100vh;
+    width:100%;
 }
 
 .port-header{
@@ -28,8 +32,12 @@
     display:flex;
     align-items:center;
     justify-content: center;
-    position:relative;
-    height:90%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:100%;
+    width:100%;
 }
 
 .header-div{
@@ -50,5 +58,19 @@
 
     & .move-left{
         animation: moveInLeft 1.2s ease-out;
+    }
+}
+
+.arrow-dn{
+    position:absolute;
+    bottom:2%;
+    left:50%;
+    color:$color-white;
+    transform: translate(-50%,-50%);
+    animation: arrowDown 1.5s linear infinite;
+
+    & a{
+        text-decoration: none;
+        color:$color-white;
     }
 }

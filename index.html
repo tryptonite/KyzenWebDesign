@@ -30,7 +30,15 @@
 
 <body>
     <!-- Header -->
-    <section class="home-header header">
+    <section class="home-header" id="top">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+                <source src="./images/Fade-To-Black.mp4" type='video/mp4'>
+                <source src="./images/Fade-To-Black.webm" type='video/webm'>
+                    Your browser is not supported.
+            </video>
+        </div>
+
         <nav class="navbar">
             <h3><i class="fab fa-sketch"></i><a href="index.html"> Kyzen Web Design</a>
             </h3>
@@ -52,9 +60,13 @@
                 <button class='head-btn'><a href="services.html">Get Started</a></button>
             </div>
         </div>
+
+        <div class="arrow-dn">
+            <a href="#about" class='arrow'><i class="fas fa-chevron-down fa-2x"></i></a>
+        </div>
     </section>
     <!-- About Us -->
-    <section class='about'>
+    <section class='about' id='about'>
         <div class="about-us">
             <h2>Hello</h2>
             <p>I am a web designer based in SC with a passion for creating and designing websites for desktop and mobile devices. Let me help you create the website you need to take your business a step above the competition.</p>
@@ -162,6 +174,7 @@
             <p>Copyright &copy 2020 Kyzen Web Design. All rights reserved.</p>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src=index.js></script>
 </body>
 
