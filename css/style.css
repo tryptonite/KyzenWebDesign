@@ -182,9 +182,57 @@ h3 {
     .navbar .links ul li a:hover {
       border-bottom: 2px #E5DCC5 solid; }
 
+.form {
+  margin: 2.5rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .form form {
+    padding: 3rem;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 600px; }
+    .form form p {
+      font-size: 1.8rem;
+      margin-top: 3rem; }
+    .form form input {
+      padding-left: 2px;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      font-family: "Montserrat", "sans-serif";
+      border: none;
+      background-color: #fff;
+      border-bottom: 1px black solid;
+      width: 400px;
+      height: 3rem; }
+      .form form input:focus {
+        outline: none; }
+    .form form .subject {
+      height: 3rem;
+      width: 400px;
+      font-size: 1.5rem; }
+    .form form .message {
+      margin-top: 3rem; }
+    .form form textarea {
+      resize: none;
+      width: 400px;
+      height: 250px;
+      border: 1px black solid;
+      font-size: 1.8rem;
+      font-family: "Montserrat", "sans-serif"; }
+      .form form textarea:focus {
+        outline: none; }
+    .form form .send-button {
+      text-align: center; }
+
 .header {
   background-size: cover;
-  height: 850px; }
+  height: 100%; }
+
+.header-alt {
+  background-size: cover;
+  height: 700px; }
 
 .home-header {
   position: relative;
@@ -213,17 +261,22 @@ h3 {
   transform: translate(-50%, -50%);
   height: 100%;
   width: 100%; }
-
-.container-contact-head {
-  transform: translate(-50%, -60%); }
+  .container-head--alt {
+    height: 700px; }
+  .container-head--alt-2 {
+    height: 600px; }
 
 .header-div {
   text-align: center;
   margin: 0 auto;
   align-self: center;
   backface-visibility: hidden; }
-  .header-div--mod {
-    margin: 0 auto 5% auto; }
+  .header-div--mod h1 {
+    line-height: 700px;
+    padding-bottom: none; }
+  .header-div--mod-2 h1 {
+    line-height: 600px;
+    padding-bottom: none; }
   .header-div h1 {
     font-size: 5.5rem;
     align-self: center;
@@ -301,6 +354,17 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer; }
+
+.contact {
+  text-align: center; }
+  .contact h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Montserrat", "sans-serif";
+    margin: 7rem auto 3rem auto; }
+  .contact h4 {
+    font-size: 2.5rem;
+    color: dimgray; }
 
 .about {
   background-color: #000;
@@ -536,52 +600,3 @@ h3 {
       color: #078107;
       content: '✔';
       margin: 0 7px; }
-
-.contact {
-  text-align: center; }
-  .contact h2 {
-    font-size: 3rem;
-    font-weight: 600;
-    font-family: "Montserrat", "sans-serif";
-    margin: 7rem auto 3rem auto; }
-  .contact h4 {
-    font-size: 2.5rem;
-    color: dimgray; }
-
-.form {
-  margin: 2.5rem auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-  .form form {
-    padding: 3rem;
-    border-radius: 5px;
-    font-weight: 600;
-    width: 600px; }
-    .form form p {
-      font-size: 1.8rem;
-      margin-top: 3rem; }
-    .form form input {
-      padding-left: 2px;
-      margin-bottom: 1rem;
-      font-size: 1.8rem;
-      font-family: "Montserrat", "sans-serif";
-      border: none;
-      background-color: #fff;
-      border-bottom: 1px black solid;
-      width: 400px;
-      height: 3rem; }
-      .form form input:focus {
-        outline: none; }
-    .form form textarea {
-      resize: none;
-      width: 400px;
-      height: 250px;
-      border: 1px black solid;
-      font-size: 1.8rem;
-      font-family: "Montserrat", "sans-serif"; }
-      .form form textarea:focus {
-        outline: none; }
-    .form form .send-button {
-      text-align: center; }

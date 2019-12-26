@@ -1,6 +1,11 @@
 .header{
     background-size: cover;
-    height:850px;
+    height:100%;
+}
+
+.header-alt{
+    background-size: cover;
+    height:700px;
 }
 
 .home-header{
@@ -39,11 +44,14 @@
     transform: translate(-50%,-50%);
     height:100%;
     width:100%;
-}
 
-.container-contact-head{
-    transform:translate(-50%,-60%);
+    &--alt{
+        height:700px;
+    }
 
+    &--alt-2{
+        height:600px;
+    }
 }
 
 .header-div{
@@ -53,7 +61,19 @@
     backface-visibility: hidden;
 
     &--mod{
-        margin: 0 auto 5% auto;
+
+        & h1{
+            line-height: 700px;
+            padding-bottom: none;
+        }
+    }
+
+    &--mod-2{
+        
+        & h1{
+            line-height: 600px;
+            padding-bottom:none;
+        }
     }
 
     & h1{
