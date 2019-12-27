@@ -30,7 +30,7 @@
 
 <body>
     <!-- Header -->
-    <section class="contact-header">
+    <section class="consult-header">
         <nav class="navbar">
             <h3><i class="fab fa-sketch"></i><a href="index.html"> Kyzen Web Design</a>
             </h3>
@@ -52,36 +52,44 @@
 
         <!-- Contact Form -->
         <section>
-            <div class="contact container-fluid">
+            <div class="started row container-fluid">
+                <div class="col-2-of-3">
                 <h2>Free Web Consultation</h2>
                 <h4>Reach out to our designer.</h4>
                 <div class="form">
                     <form action="https://formspree.io/xvozaroj" method="POST">
-                    <div class="row">
-                        <div class="col">
-                        <p>Full Name</p>
+                        <p>Full Name <span class='required'>*</span></p>
                         <input type="text" name="name" id="name" placeholder="Name" required />
-                        <p>E-mail</p>
+                        <p>E-mail <span class='required'>*</span></p>
                         <input type="email" name="email" id="email" placeholder="Email" required />
                         <p>Phone Number</p>
-                        <input type="tel" name="number" id="pnumber" placeholder="Phone Number (optional)" required />
-                        <p>What do you do?</p>
-                        <select name="subject" id="subject" class='subject'>
+                        <input type="tel" name="number" id="pnumber" placeholder="Phone Number (optional)" />
+                        <p>What do you do? <span class='required'>*</span></p>
+                        <select name="subject" id="subject" class='subject' required>
                             <option value="" disabled selected>Please select one</option>
-                            <option value="Purchase">Purchase</option>
-                            <option value="Returns">Returns</option>
-                            <option value="Feedback">Feedback</option>
-                            <option value="Miscellaneous">Miscellaneous</option>
+                            <option value="Starting-small">Starting a Small Business</option>
+                            <option value="Running-small">Running a Small Business</option>
+                            <option value="Blogger">Blogger</option>
+                            <option value="Other">Other</option>
+                            <!-- <option value="Miscellaneous">Miscellaneous</option> -->
                       </select>
                         <p class='message'>Message</p>
-                        <textarea name="message" id="textarea" required></textarea>
+                        <textarea name="message" id="textarea" placeholder="Tell us about your project" required></textarea>
                       <div class="send-button">
                       <button type="submit" class="contact-btn btn btn-dark">Send</button>
                         </div>
-                      </div>
-                    </div>
                     </form>
-                  </div>
+                </div>
+                </div>
+
+                <div class="col-1-of-3">
+                    <div class="help">
+                        <h3>Still Have Questions?</h3>
+                        <p>Need some help?</p>
+                        <p>Reach out to us for any questions</p>
+                        <p>Just click the button below</p>
+                        <a href="contact.html" class='btn btn-help'>Contact Us</a>
+                </div>
             </div>
         </section>
 

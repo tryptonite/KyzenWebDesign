@@ -1,0 +1,25 @@
+.help{
+    margin-top: 10rem;
+    background-color: grey;
+    // border: 1px rgb(75, 75, 75) solid;
+    padding:2rem;
+    // text-align: center;
+
+    & h3{
+        font-size:2.5rem;
+        font-family: "Montserrat", "sans-serif";
+        padding-bottom: 2rem;
+        // font-weight: 600;
+        color:$color-white;
+    }
+
+    & p{
+        font-size:1.6rem;
+        font-weight: 600;
+    }
+
+    & a{
+        font-size:1.6rem;
+        text-decoration: none;
+    }
+}

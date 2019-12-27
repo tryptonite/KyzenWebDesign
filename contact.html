@@ -51,20 +51,20 @@
     </section>
 
     <!-- Contact Form -->
-    <section>
-        <div class="contact container-fluid">
-            <h2>Getting Started. Questions?</h2>
+    <section class='contact-details'>
+        <div class="contact row container-fluid">
+            <div class="col-2-of-3">
+            <h2>Need Help? Questions?</h2>
             <h4>We have you covered.</h4>
             <div class="form">
                 <form action="https://formspree.io/xvozaroj" method="POST">
-                <div class="row">
-                    <div class="col">
-                  <p>Name</p>
+                <div class="container">
+                  <p>Name <span class='required'>*</span></p>
                   <input type="text" name="name" id="name" placeholder="Name" required />
-                  <p>E-mail</p>
+                  <p>E-mail <span class='required'>*</span></p>
                   <input type="email" name="email" id="email" placeholder="Email" required />
                   <p>Phone Number</p>
-                  <input type="tel" name="number" id="pnumber" placeholder="Phone Number (optional)" required />
+                  <input type="tel" name="number" id="pnumber" placeholder="Phone Number (optional)" />
                   <!-- <p>Subject</p>
                   <select name="subject" id="subject">
                     <option value="" disabled selected>Please select one</option>
@@ -74,16 +74,28 @@
                     <option value="Miscellaneous">Miscellaneous</option>
                   </select> -->
                     <p>Message</p>
-                    <textarea name="message" id="textarea" required></textarea>
+                    <textarea name="message" id="textarea" placeholder="How can we help you?" required></textarea>
                   <div class="send-button">
                   <button type="submit" class="contact-btn btn btn-dark">Send</button>
                     </div>
                   </div>
-                </div>
                 </form>
               </div>
+            </div>
+
+              <div class="col-1-of-3">
+                  <div class="help">
+                  <h3>Free Web Consultation</h3>
+                  <p>Ready to start your project?</p>
+                  <p>Get your Free Web Consultation<br>with our designer today.</p>
+                  <p>Just click the button below</p>
+                  <a href="consult.html" class='btn btn-help'>Get Started</a>
+              </div>
+            </div>
+            </div>
         </div>
     </section>
+
 
             <!-- Footer -->
     <footer>

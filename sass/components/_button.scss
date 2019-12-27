@@ -98,3 +98,14 @@
     text-align: center;
     font-size: $font-size;
 }
+
+.btn-help{
+    margin-top: 1rem;
+    border:3px rgb(66, 180, 224) solid;
+    font-weight: 600;
+    transition: all .4s ease;
+
+    &:hover{
+        background-color: rgb(66, 180, 224);
+    }
+}
