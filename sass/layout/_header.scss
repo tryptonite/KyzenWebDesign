@@ -19,17 +19,24 @@
 
 .port-header{
     background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(8, 8, 6, 0.801))
-    ,url(../images/portfolio-headerimg.jpg) no-repeat center center;
+    ,url(../images/Portfolio-Headerimg.jpg) no-repeat center center;
 }
 
 .serv-header{
     background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(19, 16, 16, 0.801))
-    ,url(../images/services-landing.jpg) no-repeat center center;
+    ,url(../images/Services-Landing.jpg) no-repeat center center;
 }
 
 .contact-header{
     background: linear-gradient(rgba(41, 29, 29, 0.61),rgba(41, 34, 34, 0.801))
     ,url(../images/London-contactRS.jpg) no-repeat center center;
+    height:650px;
+    background-size:cover;
+}
+
+.consult-header{
+    background: linear-gradient(rgba(31, 23, 23, 0.61),rgba(32, 27, 27, 0.801))
+    ,url(../images/Consult-head.jpg) no-repeat center center;
     height:650px;
     background-size:cover;
 }
