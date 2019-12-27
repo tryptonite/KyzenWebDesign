@@ -207,7 +207,6 @@ h3 {
       border-bottom: 2px #E5DCC5 solid; }
 
 .form {
-  margin: 0;
   align-items: center; }
   .form form {
     font-weight: 600;
@@ -268,10 +267,10 @@ h3 {
   width: 100%; }
 
 .port-header {
-  background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(8, 8, 6, 0.801)), url(../images/portfolio-headerimg.jpg) no-repeat center center; }
+  background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(8, 8, 6, 0.801)), url(../images/Portfolio-Headerimg.jpg) no-repeat center center; }
 
 .serv-header {
-  background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(19, 16, 16, 0.801)), url(../images/services-landing.jpg) no-repeat center center; }
+  background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(19, 16, 16, 0.801)), url(../images/Services-Landing.jpg) no-repeat center center; }
 
 .contact-header {
   background: linear-gradient(rgba(41, 29, 29, 0.61), rgba(41, 34, 34, 0.801)), url(../images/London-contactRS.jpg) no-repeat center center;
