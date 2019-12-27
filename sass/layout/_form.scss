@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .form{
     margin:0;
     // max-width:50%;
@@ -69,4 +70,77 @@
             font-size:2.5rem;
         }
     }
+=======
+.form{
+    margin:0;
+    // max-width:50%;
+    // display:flex;
+    // flex-direction:row;
+    // justify-content:flex-start;
+    align-items: center;
+
+
+    & form{
+        font-weight: 600;
+        width:600px;
+        padding-bottom: 3rem;
+
+        & p{
+            font-size:$font-size;
+            margin-top:3rem;
+            padding-left: 2px;
+            width:400px;
+        }
+
+        & input {
+            padding-left:2px;
+            margin-bottom: 1rem;
+            font-size: $font-size;
+            font-family: $font-ms;
+            border:none;
+            background-color: #fff;
+            border-bottom:1px black solid;
+            width:400px;
+            height:3rem;
+
+            &:focus{
+                outline:none;
+            }
+        }
+
+        & .subject{
+            height:3rem;
+            width:400px;
+            font-size: 1.5rem;
+        }
+
+        & .message{
+            margin-top:3rem;
+        }
+
+        & textarea {
+            resize: none;
+            width:400px;
+            height:250px;
+            border: 1px black solid;
+            font-size:$font-size;
+            font-family: $font-ms;
+            padding:1rem;
+
+            &:focus{
+                outline:none;
+            }
+        }
+
+        & .send-button{
+            position: relative;
+            left:30%;
+        }
+
+        & .required{
+            color:red;
+            font-size:2.5rem;
+        }
+    }
+>>>>>>> ec536858eb27b852b659d94f2989d5a3810f0bcd
 }
