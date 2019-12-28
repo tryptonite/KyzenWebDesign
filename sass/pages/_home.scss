@@ -1,3 +1,24 @@
+.arrow-dn{
+    position:absolute;
+    bottom:2%;
+    left:50%;
+    height:20px;
+    width:20px;
+    background-color:$color-black;
+    transform: translate(-50%,-50%);
+    border-radius:50%;
+    animation: arrowDown 1.5s linear infinite;
+
+    & a{
+        text-decoration: none;
+        color:rgb(46, 177, 238);
+        // color:$color-black;
+        position:absolute;
+        top:3px;
+        left:6px;
+    }
+}
+
 .about{
     background-color: $color-black;
     height:600px;
@@ -95,7 +116,7 @@
     }
 
 .convert{
-    height:650px;
+    // height:650px;
     text-align:center;
     margin: 0 auto;
     font-family: $font-ms;
@@ -115,7 +136,7 @@
 
         & h4{
             font-size:2.5rem;
-            margin-bottom:3.5rem;
+            margin:5rem 0 3rem 0;
             font-weight:400;
         }
     }
@@ -131,8 +152,6 @@
             &:hover{
                 border-bottom:1px black solid;
             }
-    }
-
-
+        }
     }
 }

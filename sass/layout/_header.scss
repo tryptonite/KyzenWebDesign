@@ -97,19 +97,3 @@
         animation: moveInLeft 1.2s ease-out;
     }
 }
-
-
-
-.arrow-dn{
-    position:absolute;
-    bottom:2%;
-    left:50%;
-    color:$color-white;
-    transform: translate(-50%,-50%);
-    animation: arrowDown 1.5s linear infinite;
-
-    & a{
-        text-decoration: none;
-        color:$color-white;
-    }
-}

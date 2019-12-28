@@ -1,0 +1,130 @@
+@media screen and (max-width: 875px){
+    html{overflow-x:hidden;}
+    body{
+        
+        // HEADER HOME
+        & .header-div{
+            
+            h1{
+                font-size:3rem;
+            }
+        }
+
+        .head-btn{
+            font-size:$mobile-header-font;
+            padding:6px 10px;
+        }
+
+        .arrow-dn{
+            display:none;
+        }
+
+        // FEATURES HOME 
+        & .features{
+            text-align: center;
+
+        & .col-md-6{
+            flex-basis:initial;
+        }   
+            
+        & .container-feat{
+            width:initial;
+            max-width:100%;
+            padding:0;
+            text-align: center;
+            margin: 0 auto;
+            padding:2rem 0;
+
+            & .feat-text{
+                margin:0;
+                max-width: 100%;
+                padding:5%;
+            }
+        }}
+
+        & .feat-icon{
+            display:none;
+        }
+
+        // CONVERT HOME
+        .convert{
+
+            & .con-row{
+                margin-bottom: 0;
+                padding:0;
+            }
+
+            & h2{
+                margin:0;
+                font-size: $mobile-header-font;
+            }
+
+            & .conv-header{
+                
+                & h4 {
+                    font-size:$mobile-header-font;
+                }
+            }
+
+            & .top-link{
+                margin-top:4rem;
+                padding-bottom: 3rem;
+            }
+        }
+
+        // PORTFOLIO
+
+        & .port-description{
+            padding:40% 10%;
+
+            h2{
+                font-size:$mobile-header-font;
+                padding-bottom: 3rem;
+            }
+
+            p{
+                font-size: $mobile-alt-font;
+            }
+        }
+
+
+        // SERVICES
+        & .project{
+            width:100%;
+            text-align: center;
+            border: none;
+            padding:5%;
+
+        &__header{
+            border-radius: 5px;
+        }
+
+        &__serv-list{
+            margin-left: 0;
+            
+            ul{
+                list-style-type: none;
+            }
+        }    
+        &__serv-img{
+
+            img{ 
+                display:none;
+            }
+        }}    
+        & .services{
+        display:flex;
+        flex-direction:column;
+
+            & .svc-box{
+                max-width:100%;
+                // position:initial;
+                top:0;
+                left:0;
+
+                & .b-value{
+                    display:none;
+                }
+            }
+        }        
+}}

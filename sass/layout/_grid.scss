@@ -1,45 +1,60 @@
-.row {
-    max-width:$grid-width;
-    margin:0 auto;
+// .row {
+//     max-width:$grid-width;
+//     margin:0 auto;
     
-    &:not(:last-child){
-        margin-bottom:$gutter-vertical;
-    }
+//     &:not(:last-child){
+//         margin-bottom:$gutter-vertical;
+//     }
 
-@include clearfix;
+// @include clearfix;
 
-    & .col-1-of-1{
-        margin: 0 auto;
-        width: calc(100% - #{$gutter-horizontal});
-    }
+//     & .col-1-of-1{
+//         margin: 0 auto;
+//         width: calc(100% - #{$gutter-horizontal});
+//     }
 
-    & .col-1-of-2 {
-        margin:0 auto;
-        float:left;
-        width:calc((100% - #{$gutter-horizontal}) / 2);
+//     & .col-1-of-2 {
+//         margin:0 auto;
+//         float:left;
+//         width:calc((100% - #{$gutter-horizontal}) / 2);
         
-        &:not(:last-child){
-            margin-right: $gutter-horizontal;
-        }
-    }
+//         &:not(:last-child){
+//             margin-right: $gutter-horizontal;
+//         }
+//     }
 
-    & .col-1-of-3 {
-        margin: 0 auto;
-        float:left;
-        width:calc((100% - 2 * #{$gutter-horizontal}) / 3);
+//     & .col-1-of-3 {
+//         margin: 0 auto;
+//         float:left;
+//         width:calc((100% - 2 * #{$gutter-horizontal}) / 3);
 
-        &:not(:last-child){
-            margin-right: $gutter-horizontal;
-        }
-    }
+//         &:not(:last-child){
+//             margin-right: $gutter-horizontal;
+//         }
+//     }
 
-    & .col-1-of-3-svc {
-        margin: 0 auto;
-        float:left;
-        width:calc((100% - 2 * #{$gutter-horizontal-svc}) / 3);
+//     & .col-1-of-3-svc {
+//         margin: 0 auto;
+//         float:left;
+//         width:calc((100% - 2 * #{$gutter-horizontal-svc}) / 3);
 
-        &:not(:last-child){
-            margin-right: $gutter-horizontal-svc;
-        }
-    }   
-}
+//         &:not(:last-child){
+//             margin-right: $gutter-horizontal-svc;
+//         }
+//     }   
+// }
+
+// BOOTSTRAP GRID
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);

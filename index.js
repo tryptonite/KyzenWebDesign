@@ -6,6 +6,3 @@ $('a[href^="#"]').click(function(e){
     console.log(dest);
     $('html,body').animate({scrollTop:$(dest).offset().top}, 'slow');
 })
-
-
-
