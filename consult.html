@@ -51,13 +51,14 @@
     </section>
 
         <!-- Contact Form -->
-        <section>
-            <div class="consult row container-fluid">
-                <div class="col-2-of-3">
+        <section class='contact-details'>
+            <div class="contact row">
+                <div class="col-md-8 contact-details__head">
                 <h2>Free Web Consultation</h2>
                 <h4>Reach out to our designer.</h4>
                 <div class="form">
                     <form action="https://formspree.io/xvozaroj" method="POST">
+                        <div class="container">
                         <p>Full Name <span class='required'>*</span></p>
                         <input type="text" name="name" id="name" placeholder="Name" required />
                         <p>E-mail <span class='required'>*</span></p>
@@ -75,14 +76,15 @@
                       </select>
                         <p class='message'>Message</p>
                         <textarea name="message" id="textarea" placeholder="Tell us about your project" required></textarea>
-                        <div class="send-button">
+                        <div class="contact-button">
                             <button type="submit" class="contact-btn btn btn-success">Request Free Consultation</button>
                         </div>
+                    </div>
                     </form>
                 </div>
                 </div>
 
-                <div class="col-1-of-3">
+                <div class="col-md-4 contact-details__help">
                     <div class="help">
                         <h3>Still Have Questions?</h3>
                         <p>Need some help?</p>
@@ -91,6 +93,7 @@
                         <a href="contact.html" class='btn btn-help'>Contact Us</a>
                 </div>
             </div>
+            </div> 
         </section>
 
     <!-- Footer -->

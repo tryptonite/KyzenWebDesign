@@ -1,3 +1,26 @@
+@media screen and (min-width: 876px) and (max-width: 1250px){
+    body{
+        //SERVICES
+        & .serv-convert{
+
+            width:80%;
+            h5{
+                font-size: 2.5rem;
+            }
+            & .serv-btn{
+                font-size:1.8rem;
+                padding: 6px 8px;
+            }
+        }
+
+        // CONSULT
+        & .contact-details{
+            margin:5%;
+        }
+    }
+}
+
+
 @media screen and (max-width: 875px){
     html{overflow-x:hidden;}
     body{
@@ -111,20 +134,162 @@
             img{ 
                 display:none;
             }
-        }}    
+        }}
+        
+        & .serv-convert{
+            text-align: center;
+            margin:0 auto;
+            width:80%;
+            display:flex;
+            flex-direction: column;
+            h5{
+                margin-bottom: 2rem;
+                font-size: 2.5rem;
+            }
+        }
+
+        & .convert-btn{
+            font-size:$mobile-alt-font;
+            font-weight: normal;
+        }
+
         & .services{
         display:flex;
         flex-direction:column;
 
             & .svc-box{
-                max-width:100%;
-                // position:initial;
+                max-width:80%;
+                align-self:center;
                 top:0;
                 left:0;
+                margin-bottom: 7rem;
 
                 & .b-value{
                     display:none;
                 }
             }
-        }        
+        }    
+        // FORM
+
+        .contact-details{
+            margin:auto;
+            display:inline-block;
+            width:100%;
+            margin:0 auto;
+            text-align: center;
+
+        & .row{
+            justify-content: space-between;
+            display:initial;
+        }
+
+        & .col-md-8{
+            flex-basis: initial;
+            margin:0;
+            max-width:100%;
+        }
+
+        &__head{
+            text-align: center;
+            max-width:100%; 
+        }
+        
+        &__help{
+            text-align: center;
+            max-width:100%;
+        }
+        }
+
+        & .form{
+        
+            & form{
+                font-weight: 400;
+                width:100%;
+                padding-bottom: 3rem;
+                display:flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin:0;
+        
+                & p{
+                    font-size:$font-size;
+                    margin-top:3rem;
+                    padding-left: 2px;
+                    width:100%;
+                }
+        
+                & input {
+                    width:100%;
+                    height:3rem;
+        
+                    &:focus{
+                        outline:none;
+                    }
+                }
+
+                & .subject{
+                    height:3rem;
+                    width:100%;
+                    font-size: 1.5rem;
+                }
+        
+                & .message{
+                    margin-top:3rem;
+                }
+        
+                & textarea {
+                    width:100%;
+        
+                    &:focus{
+                        outline:none;
+                    }
+                }
+            }
+        }
+
+        .help{
+            margin:5rem auto 3rem auto;
+            width:65%;
+            justify-self:center;
+            background-color: grey;
+            padding:2rem;
+        
+            & h3{
+                font-size:2.5rem;
+                font-family: "Montserrat", "sans-serif";
+                padding-bottom: 2rem;
+                color:$color-white;
+            }
+        
+            & p{
+                font-size:1.6rem;
+                font-weight: 600;
+            }
+        
+            & a{
+                font-size:1.6rem;
+                text-decoration: none;
+            }
+        }
+
+        // CONSULT
+        & .consult{
+            margin:auto;
+        }
 }}
+
+
+@media screen and (max-width:420px){
+    body{
+        // SERVICES
+        & .svc-box{
+            font-size:1.7rem;
+        }
+
+        // HELP
+        & .help{
+            width:90%;
+        }
+    }
+}

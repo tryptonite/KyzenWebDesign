@@ -1,4 +1,15 @@
 @charset "UTF-8";
+@media screen and (min-width: 876px) and (max-width: 1250px) {
+  body .serv-convert {
+    width: 80%; }
+    body .serv-convert h5 {
+      font-size: 2.5rem; }
+    body .serv-convert .serv-btn {
+      font-size: 1.8rem;
+      padding: 6px 8px; }
+  body .contact-details {
+    margin: 5%; } }
+
 @media screen and (max-width: 875px) {
   html {
     overflow-x: hidden; }
@@ -57,15 +68,102 @@
         list-style-type: none; }
     body .project__serv-img img {
       display: none; }
+  body .serv-convert {
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column; }
+    body .serv-convert h5 {
+      margin-bottom: 2rem;
+      font-size: 2.5rem; }
+  body .convert-btn {
+    font-size: 1.6rem;
+    font-weight: normal; }
   body .services {
     display: flex;
     flex-direction: column; }
     body .services .svc-box {
-      max-width: 100%;
+      max-width: 80%;
+      align-self: center;
       top: 0;
-      left: 0; }
+      left: 0;
+      margin-bottom: 7rem; }
       body .services .svc-box .b-value {
-        display: none; } }
+        display: none; }
+  body .contact-details {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+    body .contact-details .row {
+      justify-content: space-between;
+      display: initial; }
+    body .contact-details .col-md-8 {
+      flex-basis: initial;
+      margin: 0;
+      max-width: 100%; }
+    body .contact-details__head {
+      text-align: center;
+      max-width: 100%; }
+    body .contact-details__help {
+      text-align: center;
+      max-width: 100%; }
+  body .form form {
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0; }
+    body .form form p {
+      font-size: 1.8rem;
+      margin-top: 3rem;
+      padding-left: 2px;
+      width: 100%; }
+    body .form form input {
+      width: 100%;
+      height: 3rem; }
+      body .form form input:focus {
+        outline: none; }
+    body .form form .subject {
+      height: 3rem;
+      width: 100%;
+      font-size: 1.5rem; }
+    body .form form .message {
+      margin-top: 3rem; }
+    body .form form textarea {
+      width: 100%; }
+      body .form form textarea:focus {
+        outline: none; }
+  body .help {
+    margin: 5rem auto 3rem auto;
+    width: 65%;
+    justify-self: center;
+    background-color: grey;
+    padding: 2rem; }
+    body .help h3 {
+      font-size: 2.5rem;
+      font-family: "Montserrat", "sans-serif";
+      padding-bottom: 2rem;
+      color: #fff; }
+    body .help p {
+      font-size: 1.6rem;
+      font-weight: 600; }
+    body .help a {
+      font-size: 1.6rem;
+      text-decoration: none; }
+  body .consult {
+    margin: auto; } }
+
+@media screen and (max-width: 420px) {
+  body .svc-box {
+    font-size: 1.7rem; }
+  body .help {
+    width: 90%; } }
 
 @keyframes moveInRight {
   0% {
@@ -93,10 +191,10 @@
 
 @keyframes arrowDown {
   0% {
-    opacity: 0.5;
+    opacity: 0.6;
     transform: translateY(-20px); }
   50% {
-    opacity: 0.5;
+    opacity: 0.85;
     transform: translateY(-10px); }
   100% {
     opacity: 1;
@@ -217,6 +315,9 @@ h3 {
   .serv-btn:hover {
     background-color: rgba(241, 144, 53, 0.801); }
 
+.contact-button {
+  width: 400px; }
+
 .contact-btn {
   margin-top: 2.5rem;
   text-align: center;
@@ -233,7 +334,8 @@ h3 {
 .help {
   margin-top: 10rem;
   background-color: grey;
-  padding: 2rem; }
+  padding: 2rem;
+  width: 100%; }
   .help h3 {
     font-size: 2.5rem;
     font-family: "Montserrat", "sans-serif";
@@ -315,7 +417,7 @@ h3 {
       .form form textarea:focus {
         outline: none; }
     .form form .contact-button {
-      margin: 0 30%; }
+      text-align: center; }
     .form form .send-button {
       margin: 0 13%; }
     .form form .required {
@@ -449,7 +551,7 @@ h3 {
   background-color: #000;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  animation: arrowDown 1.5s linear infinite; }
+  animation: arrowDown 2s linear infinite; }
   .arrow-dn a {
     text-decoration: none;
     color: #2eb1ee;
@@ -483,7 +585,8 @@ h3 {
 
 .container-feat {
   padding: 5rem;
-  font-weight: 600; }
+  font-weight: 600;
+  margin: 0 18%; }
   .container-feat h2 {
     font-size: 3rem;
     font-weight: 600;
@@ -528,13 +631,15 @@ h3 {
   text-align: center;
   margin: 0 auto;
   font-family: "Montserrat", "sans-serif";
-  background-color: rgba(206, 209, 180, 0.719); }
+  background-color: rgba(206, 209, 180, 0.719);
+  align-content: center; }
   .convert h2 {
     font-size: 3.5rem;
     text-align: center;
     padding-top: 6rem; }
   .convert .con-row {
-    padding: 3rem; }
+    padding: 3rem;
+    margin: auto 15%; }
   .convert .conv-header h4 {
     font-size: 2.5rem;
     margin: 5rem 0 3rem 0;
@@ -597,6 +702,23 @@ h3 {
   .portfolio .port-two p {
     color: #fff; }
 
+.port-convert {
+  height: 300px;
+  font-family: "Montserrat", "sans-serif";
+  padding: 1%;
+  text-align: center;
+  background: linear-gradient(to right, rgba(141, 211, 252, 0.8), rgba(43, 119, 115, 0.9)); }
+  .port-convert h6 {
+    font-size: 3rem;
+    padding: 2.5rem 0;
+    font-weight: 600; }
+  .port-convert .second-header {
+    font-weight: 400;
+    font-size: 2.5rem; }
+  .port-convert .btn {
+    margin-top: 2.5rem;
+    font-weight: 600; }
+
 .section-services {
   margin: 7rem auto; }
 
@@ -622,7 +744,7 @@ h3 {
       font-weight: 600; }
 
 .serv-convert {
-  width: 60%;
+  width: 65%;
   margin: 5rem auto;
   display: flex;
   align-items: center;
@@ -661,16 +783,15 @@ h3 {
   padding-bottom: 5rem;
   font-size: 1.7rem;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center; }
   .services .svc-box {
     box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
     text-align: center;
     margin: .5rem;
     height: 100%;
-    max-width: 275px;
-    position: relative;
-    top: 50%;
-    left: 12%; }
+    max-width: 275px; }
     .services .svc-box .b-value {
       position: absolute;
       top: -60px;

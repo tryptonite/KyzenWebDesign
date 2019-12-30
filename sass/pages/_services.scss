@@ -32,7 +32,7 @@
 }
 
 .serv-convert{
-    width:60%;
+    width:65%;
     margin:5rem auto;
     display:flex;
     align-items: center;
@@ -88,6 +88,8 @@
     font-size:1.7rem;
     width:100%;
     margin: 0 auto;
+    text-align: center;
+    justify-content: center;
 
     & .svc-box{
         box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
@@ -95,9 +97,6 @@
         margin:.5rem;
         height:100%;
         max-width:275px;
-        position: relative;
-        top:50%;
-        left:12%;
 
         & .b-value{
             position: absolute;
