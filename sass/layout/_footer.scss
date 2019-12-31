@@ -1,6 +1,6 @@
 .footer{
     background-color: $color-black;
-    height:150px;
+    height:130px;
     text-align:center;
     overflow-y:hidden;
     // display:flex;
@@ -8,14 +8,33 @@
     justify-content: center;
     align-items: center;
 
+    hr{
+        border-color:grey;
+    }
+
+    &__pages{
+        margin-bottom: 1.5rem;
+        
+
+        a{
+            text-decoration: none;
+            padding:0 1rem;
+        }
+    }
+
+    &__links{
+        color:grey;
+        font-size:1.25rem;
+    }
+
     & p{
         color:grey;
         font-size: 1.25rem;
-        // line-height:150px;
+        margin-top: 1rem;
     }
 
     & .sm-icon{
-        margin:3rem 1.5rem 3rem;
+        margin:2rem 1.5rem 2rem;
         color:grey;
     }
 }

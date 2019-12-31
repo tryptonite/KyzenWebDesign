@@ -510,16 +510,27 @@ h3 {
 
 .footer {
   background-color: #000;
-  height: 150px;
+  height: 130px;
   text-align: center;
   overflow-y: hidden;
   justify-content: center;
   align-items: center; }
-  .footer p {
+  .footer hr {
+    border-color: grey; }
+  .footer__pages {
+    margin-bottom: 1.5rem; }
+    .footer__pages a {
+      text-decoration: none;
+      padding: 0 1rem; }
+  .footer__links {
     color: grey;
     font-size: 1.25rem; }
+  .footer p {
+    color: grey;
+    font-size: 1.25rem;
+    margin-top: 1rem; }
   .footer .sm-icon {
-    margin: 3rem 1.5rem 3rem;
+    margin: 2rem 1.5rem 2rem;
     color: grey; }
 
 .fa-envelope:hover {
