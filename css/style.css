@@ -1,5 +1,11 @@
 @charset "UTF-8";
 @media screen and (min-width: 876px) and (max-width: 1250px) {
+  body .features .row {
+    margin: auto; }
+  body .convert .row {
+    margin: auto; }
+    body .convert .row:not(:last-child) {
+      padding-top: 0; }
   body .serv-convert {
     width: 80%; }
     body .serv-convert h5 {
@@ -39,7 +45,10 @@
     display: none; }
   body .convert .con-row {
     margin-bottom: 0;
-    padding: 0; }
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   body .convert h2 {
     margin: 0;
     font-size: 2.5rem; }
@@ -49,7 +58,7 @@
     margin-top: 4rem;
     padding-bottom: 3rem; }
   body .port-description {
-    padding: 40% 10%; }
+    padding: 30% 10%; }
     body .port-description h2 {
       font-size: 2.5rem;
       padding-bottom: 3rem; }
@@ -141,6 +150,9 @@
       width: 100%; }
       body .form form textarea:focus {
         outline: none; }
+    body .form form .contact-button {
+      width: 60%;
+      margin: auto; }
   body .help {
     margin: 5rem auto 3rem auto;
     width: 65%;
@@ -164,6 +176,11 @@
 @media screen and (max-width: 420px) {
   body .svc-box {
     font-size: 1.7rem; }
+  body .port-convert {
+    padding: 5%;
+    height: 100%; }
+    body .port-convert .convert-btn {
+      margin-bottom: 3rem; }
   body .help {
     width: 90%; } }
 
@@ -793,7 +810,9 @@ h3 {
     text-align: center;
     margin: .5rem;
     height: 100%;
-    max-width: 275px; }
+    max-width: 275px;
+    font-size: 1.6rem;
+    font-family: "Raleway","sans-serif"; }
     .services .svc-box .b-value {
       position: absolute;
       top: -60px;
