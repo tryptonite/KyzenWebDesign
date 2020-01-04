@@ -51,6 +51,7 @@
     transform: translate(-50%,-50%);
     height:100%;
     width:100%;
+    backface-visibility: hidden;
 
     &--alt{
         height:700px;

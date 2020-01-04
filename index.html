@@ -24,6 +24,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/query.css">
 </head>
@@ -44,7 +45,7 @@
             </h3>
             <div class="links">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="services.html">Services</a></li>
                 </ul>
@@ -72,16 +73,18 @@
             <p>I am a web designer based in SC with a passion for creating and designing websites for desktop and mobile devices. Let me help you create the website you need to take your business a step above the competition.</p>
         </div>
     </section>
+
     <!-- Features -->
+
     <section>
         <div class="features">
             <div class="container-feat row">
-                <div class="feat-icon move-right col-md-6">
+                <div class="feat-icon col-md-6" data-aos="fade-right">
                 <div class="inner-icon">
                     <i class="fas i-left fa-laptop fa-7x"></i>
                 </div>
                 </div>
-                <div class="feat-text right col-md-6">
+                <div class="feat-text right col-md-6" data-aos="fade-up">
                     <h2>Personalized Website</h2>
                     <p>
                         Custom, elegant designs made specifically for your needs. The internet is constantly changing, so we stay proactive to keep up with the newest trends and designs. we will
@@ -90,7 +93,7 @@
                 </div>
             </div>
             <div class="container-feat row">
-                <div class="feat-text left col-md-6">
+                <div class="feat-text left col-md-6" data-aos="fade-up" >
                     <h2>Mobile Friendly</h2>
                     <p>
                         Websites that work not only on desktops, but also are mobile-responsive. Nearly 60% of all
@@ -98,19 +101,19 @@
                     </p>
                 </div>
                 
-                <div class="feat-icon move-right col-md-6">
-                    <div class="inner-icon">
+                <div class="feat-icon col-md-6">
+                    <div class="inner-icon" data-aos="fade-left">
                         <i class="fas i-right fa-mobile-alt fa-7x"></i>
                     </div>
                 </div>
             </div>
             <div class="container-feat row">
-                <div class="feat-icon move-left col-md-6">
+                <div class="feat-icon col-md-6" data-aos="fade-right" >
                     <div class="inner-icon">
                         <i class="fas i-left fa-server fa-7x"></i>
                     </div>
                 </div>
-                <div class="feat-text right col-md-6">
+                <div class="feat-text right col-md-6" data-aos="fade-up">
                     <h2>Reliable Hosting</h2>
                     <p>
                         Quality, dependable hosting so you're website is always up and running, and maintenance and
@@ -120,13 +123,13 @@
                 </div>
             </div>
             <div class="container-feat row">
-                <div class="feat-text left col-md-6">
+                <div class="feat-text left col-md-6" data-aos="fade-up">
                     <h2>Quality Support</h2>
                     <p>
                         Human support when you need for your website to keep it up to your standards. You will have 1-on-1 contact with the website designer for tailored support.
                     </p>
                 </div>
-                <div class="feat-icon move-right col-md-6">
+                <div class="feat-icon col-md-6" data-aos="fade-left" >
                     <div class="inner-icon">
                         <i class="fas i-right fa-phone-square fa-7x"></i>
                     </div>
@@ -181,7 +184,17 @@
             <p>Copyright &copy 2020 Kyzen Web Design. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Scripts -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+          duration:1400,
+          once:true,
+      });
+    </script>
     <script src=index.js></script>
 </body>
 
