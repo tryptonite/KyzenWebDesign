@@ -2,6 +2,8 @@
     body{
 
         // HOME
+
+
         & .features{
             
             & .row{
@@ -45,15 +47,30 @@
     body{
         
         // HEADER HOME
+        & .brand a{
+            display:none;
+        }
+
+        & .navbar .links ul li a{
+            margin-right: 2rem;
+            font-size: 1.7rem;
+        }
+
         & .header-div{
             
-            h1{
+            padding:0 5%;
+
+            & .index-head{
                 font-size:3rem;
+            }
+
+            h1{
+                font-size:4rem;
             }
         }
 
         .head-btn{
-            font-size:$mobile-header-font;
+            font-size:1.8rem;
             padding:6px 10px;
         }
 

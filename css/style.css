@@ -19,10 +19,19 @@
 @media screen and (max-width: 875px) {
   html {
     overflow-x: hidden; }
-  body .header-div h1 {
-    font-size: 3rem; }
+  body .brand a {
+    display: none; }
+  body .navbar .links ul li a {
+    margin-right: 2rem;
+    font-size: 1.7rem; }
+  body .header-div {
+    padding: 0 5%; }
+    body .header-div .index-head {
+      font-size: 3rem; }
+    body .header-div h1 {
+      font-size: 4rem; }
   body .head-btn {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     padding: 6px 10px; }
   body .arrow-dn {
     display: none; }
