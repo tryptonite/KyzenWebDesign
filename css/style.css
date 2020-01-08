@@ -629,10 +629,11 @@ h3 {
     font-size: 4rem;
     padding-bottom: 3rem; }
   .about-us p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #a1a1a1;
-    font-weight: 600;
-    max-width: 600px; }
+    font-weight: 400;
+    max-width: 600px;
+    letter-spacing: 1px; }
 
 .features {
   background: linear-gradient(to left bottom, #F08A92, #FFFDAF);
