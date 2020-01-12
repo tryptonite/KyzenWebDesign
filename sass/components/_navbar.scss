@@ -36,6 +36,10 @@
         & li a:hover{
             border-bottom: 2px $primary-color solid;
         }
+
+        & .active-link{
+            border-bottom: 2px $primary-color solid;
+        }
     }
 }
 

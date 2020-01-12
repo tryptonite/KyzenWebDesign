@@ -419,6 +419,8 @@ h3 {
       padding-bottom: 8px; }
     .navbar .links ul li a:hover {
       border-bottom: 2px #E5DCC5 solid; }
+    .navbar .links ul .active-link {
+      border-bottom: 2px #E5DCC5 solid; }
 
 .form {
   align-items: center; }
