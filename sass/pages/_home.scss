@@ -47,28 +47,40 @@
 }
 
 .features{
-    // background:linear-gradient(to left bottom, #EA5864, #B5FED9);
-    background:linear-gradient(to left bottom, #F08A92, #FFFDAF);
+    background:linear-gradient(to left bottom, rgba(240, 138, 146, 0.70), rgba(81, 100, 129, 0.5)), url(../images/city-at-dusk.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     // background-color: $primary-color;
     padding:5rem 0;
+    font-family: "Montserrat","sans-serif";
+    font-weight: 400;
 }
 
 .container-feat{
-    padding:12rem;
+    padding:10rem 12rem;
     font-weight:600;
     margin:0 18%;
 
     & h2 {
         font-size:3rem;
         font-weight:600;
-        color:$h2-color;
+        // color:$h2-color;
+        font-family: "Raleway","sans-serif";
+        text-align: center;
+        color:#fff;
         margin-bottom: 24px;
     }
 
     & .feat-text{
         max-width:500px;
         font-size:$font-size;
-        color:#252422;
+        // color:#252422;
+        color:#000;
+
+        background-color: rgba(205, 197, 247, 0.5);
+        // background-color: rgba(255, 55, 55, 0.562);
+        border-radius: 5px;
+        padding: 1rem 2rem;
     }
 
     & .feat-icon{
@@ -91,11 +103,11 @@
             transition: all .4s ease;
             backface-visibility: hidden;
 
-            &:hover {
-                -moz-transform:scale(1.08);
-                -webkit-transform: scale(1.08);
-                transform:scale(1.08);
-            }
+            // &:hover {
+            //     -moz-transform:scale(1.08);
+            //     -webkit-transform: scale(1.08);
+            //     transform:scale(1.08);
+            // }
 
         }
 

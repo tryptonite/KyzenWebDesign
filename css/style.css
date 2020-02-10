@@ -638,22 +638,31 @@ h3 {
     letter-spacing: 1px; }
 
 .features {
-  background: linear-gradient(to left bottom, #F08A92, #FFFDAF);
-  padding: 5rem 0; }
+  background: linear-gradient(to left bottom, rgba(240, 138, 146, 0.7), rgba(81, 100, 129, 0.5)), url(../images/city-at-dusk.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5rem 0;
+  font-family: "Montserrat","sans-serif";
+  font-weight: 400; }
 
 .container-feat {
-  padding: 12rem;
+  padding: 10rem 12rem;
   font-weight: 600;
   margin: 0 18%; }
   .container-feat h2 {
     font-size: 3rem;
     font-weight: 600;
-    color: #0B5563;
+    font-family: "Raleway","sans-serif";
+    text-align: center;
+    color: #fff;
     margin-bottom: 24px; }
   .container-feat .feat-text {
     max-width: 500px;
     font-size: 1.8rem;
-    color: #252422; }
+    color: #000;
+    background-color: rgba(205, 197, 247, 0.5);
+    border-radius: 5px;
+    padding: 1rem 2rem; }
   .container-feat .feat-icon {
     align-self: center;
     text-align: center;
@@ -671,10 +680,6 @@ h3 {
     box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
     transition: all .4s ease;
     backface-visibility: hidden; }
-    .container-feat .inner-icon:hover {
-      -moz-transform: scale(1.08);
-      -webkit-transform: scale(1.08);
-      transform: scale(1.08); }
   .container-feat .i-left {
     top: 40%;
     left: -25%; }
