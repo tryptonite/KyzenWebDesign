@@ -407,6 +407,9 @@ h3 {
     .navbar h3 a {
       text-decoration: none;
       color: #E5DCC5; }
+  .navbar .brand {
+    margin-left: 4rem;
+    margin-top: 2rem; }
   .navbar .links ul {
     list-style: none;
     font-size: 1.8rem;
@@ -618,7 +621,7 @@ h3 {
 
 .about {
   background-color: #000;
-  height: 600px;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -638,7 +641,7 @@ h3 {
     letter-spacing: 1px; }
 
 .features {
-  background: linear-gradient(to left bottom, rgba(240, 138, 146, 0.7), rgba(81, 100, 129, 0.5)), url(../images/city-at-dusk.jpg) center center no-repeat;
+  background: linear-gradient(to left bottom, rgba(240, 138, 146, 0.9), rgba(81, 100, 129, 0.9)), url(../images/city-at-dusk.jpg) center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 5rem 0;
@@ -646,7 +649,7 @@ h3 {
   font-weight: 400; }
 
 .container-feat {
-  padding: 10rem 12rem;
+  padding: 5.5rem 12rem;
   font-weight: 600;
   margin: 0 18%; }
   .container-feat h2 {

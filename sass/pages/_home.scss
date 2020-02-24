@@ -21,7 +21,7 @@
 
 .about{
     background-color: $color-black;
-    height:600px;
+    height:450px;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -47,7 +47,8 @@
 }
 
 .features{
-    background:linear-gradient(to left bottom, rgba(240, 138, 146, 0.70), rgba(81, 100, 129, 0.5)), url(../images/city-at-dusk.jpg) center center no-repeat;
+    // background:linear-gradient(to left bottom, rgba(240, 138, 146, 0.70), rgba(81, 100, 129, 0.5)), url(../images/city-at-dusk.jpg) center center no-repeat;
+    background:linear-gradient(to left bottom, rgba(240, 138, 146, 0.90), rgba(81, 100, 129, 0.9)), url(../images/city-at-dusk.jpg) center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     // background-color: $primary-color;
@@ -57,7 +58,7 @@
 }
 
 .container-feat{
-    padding:10rem 12rem;
+    padding:5.5rem 12rem;
     font-weight:600;
     margin:0 18%;
 
